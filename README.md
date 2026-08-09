@@ -16,9 +16,9 @@
 
 ## 🧭 How I got here
 
-I started as a Data Analyst on a FinTech product, elbow-deep in ML model output — funnel analysis, cohort analysis, tracing bad predictions back to whichever stage of the pipeline broke them. Somewhere in there I was already testing and validating releases; the title just hadn't caught up yet. When it did, the analytical habit came with it: I still debug SQL-first, and I still want to know *why*, not just *that*.
+I started as a Data Analyst on a FinTech product, elbow-deep in ML model output — funnel analysis, cohort analysis, tracing bad predictions back to whichever stage of the pipeline broke them. I was already testing and validating releases before the title admitted it; when it finally did, the analytical habit came along with me. I still debug SQL-first. I still want to know *why*, not just *that*.
 
-That curiosity is also why I keep ending up owning things nobody assigned me. Both flagship frameworks below — the ERP stress-test setup and the AI/LLM testing harness — started as me looking at a slow manual process and deciding to fix it, before either was ever a ticket.
+The ERP stress-test setup, the AI/LLM testing harness, the ETL pipeline, the anomaly-detection system, the self-serve API — I noticed a slow manual process each time, and just built the fix. None of them started as a ticket. That's less a resume pattern than just how I work.
 
 <details>
 <summary><strong>📊 Click for the numbers behind that</strong></summary>
