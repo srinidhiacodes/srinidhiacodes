@@ -106,8 +106,12 @@ Proprietary codebase, no public repo — but this is what actually shipped:
 - **Playwright automation framework** — expanded regression coverage by adding an API testing module alongside the existing UI suite, across the production application stack.
 - **Unblocking my own testing** — rather than sit blocked on a P0, I've dug in and fixed root-cause bugs myself across ML, UI, and backend code to get testing moving again.
 - **Owned an alternate-week release cycle** end to end — planning, UAT, deployment, and post-release verification — working cross-functionally with CX and Implementation teams to align release scope and sign-off with customer-facing rollout.
+- **Practiced shift-left testing** — partnered with Product and Engineering during feature development to clarify requirements and catch quality risks before implementation, not just after.
 
 **As Founding Data Analyst**
+- Designed and built an ETL pipeline from scratch (Spring Boot + RabbitMQ), cutting a ~2 day manual workflow to under a minute.
+- Built anomaly detection with Slack alerting to flag accuracy drops, usage decline, and failure spikes.
+- Built a self-serve API and automated CSV email reporting, giving Customer Success, Implementation, and Product instant visibility into customer health.
 - Led A/B testing comparing in-house models, rule engines, and third-party OCR providers to inform model rollout decisions.
 
 ---
