@@ -8,19 +8,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srinidhi-a-/)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:srinidhiaraja05@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/srinidhiacodes)
-![Profile Views](https://komarev.com/ghpvc/?username=srinidhiacodes&color=2E86AB&style=flat-square&label=profile+views)
 
 </div>
-
-> I don't stop at "it failed." I want to know exactly which stage of the pipeline it failed at — the UI, the API, a queue, or the model underneath.
-
-<div align="center">
-
-🔭 **Currently:** testing AI/LLM features inside a B2B FinTech product&nbsp;&nbsp;|&nbsp;&nbsp;🌱 **Exploring:** agentic testing workflows, LLM-as-judge evaluation&nbsp;&nbsp;|&nbsp;&nbsp;🤔 **Ask me about:** grading a model with no single "correct" answer
-
-</div>
-
----
 
 ## 🧭 How I got here
 
@@ -47,7 +36,7 @@ That curiosity is also why I keep ending up owning things nobody assigned me. Bo
 ## 💼 Experience
 
 <details open>
-<summary><strong>QA Engineer</strong> · Nov 2025 – Jul 2026</summary>
+<summary><strong>QA Engineer</strong> · Nov 2025 – current</summary>
 <br>
 
 - Own end-to-end STLC across UI, APIs, backend services, ML workflows, and distributed/async systems — scenarios, test data, and execution
@@ -130,6 +119,7 @@ Proprietary codebase, no public repo — but this is what actually shipped:
 - **AI/LLM testing framework** *(self-initiated)* — generates test data/cases across Product-defined prompt combinations, validates outputs across prediction, recommendation, OCR-extraction, rule-engine & LLM workflows. ~90% less manual analysis effort.
 - **ERP stress-test data framework** *(self-initiated)* — internal APIs wired into a third-party ERP, cutting test-data prep from ~1 day to under 40 minutes.
 - **Playwright automation framework** — expanded regression coverage by adding an API testing module alongside the existing UI suite, across the production application stack.
+- **Unblocking my own testing** — rather than sit blocked on a P0, I've dug in and fixed root-cause bugs myself across ML, UI, and backend code to get testing moving again.
 
 ---
 
