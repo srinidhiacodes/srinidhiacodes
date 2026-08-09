@@ -4,7 +4,7 @@
 
 ### QA Engineer — turning testing rigor into shipped confidence, from the UI down to the ML models underneath
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E86AB&center=true&vCenter=true&width=600&lines=QA+Engineer+%7C+B2B+FinTech+SaaS;Playwright+%7C+API+%2B+UI+Automation;AI%2FLLM+%26+OCR+Model+Validation;Curious+by+default%2C+rigorous+by+habit)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E86AB&center=true&vCenter=true&width=600&lines=QA+Engineer+%7C+FinTech+SaaS;Playwright+%7C+API+%2B+UI+Automation;AI%2FLLM+%26+OCR+Model+Validation;Analytics+background+%2B+hands-on+QA)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/srinidhi-a-/)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srinidhiaraja05@gmail.com)
@@ -16,11 +16,9 @@
 
 ## About Me
 
-I test a B2B FinTech SaaS product used by enterprise customers — the kind where a wrong number in a payment reconciliation isn't a cosmetic bug, it's someone's books being wrong. That context shaped how I test: I don't stop at "it failed," I want to know exactly which stage of the pipeline it failed at.
+I'm a QA Engineer with 2+ years in FinTech SaaS, testing across UI, API, backend, and — increasingly — the ML/LLM models sitting inside the product. My path started as a Data Analyst, so I bring an analytics-first instinct to QA: I don't just report that something failed, I trace *why* through logs, queues, and data before calling it done.
 
-My title went from Data Analyst to QA Engineer, but the analytical habits came with me — SQL-first debugging, tracing a bad output back through logs and queues instead of guessing. I'm curious by default, which is usually why I end up owning things nobody assigned me: the ERP stress-test framework below started as me poking at a slow manual process during a perf-testing task, not as a ticket.
-
-Lately that curiosity has pointed at AI features — validating what an LLM/OCR model actually got right by computing the correct answer myself first, not by eyeballing whether the output looks plausible.
+Lately that's meant applying the same rigor to AI features — validating LLM/OCR outputs against independently computed ground truth, not just eyeballing whether an answer "looks right."
 
 ---
 
@@ -28,12 +26,11 @@ Lately that curiosity has pointed at AI features — validating what an LLM/OCR 
 
 | | |
 |---|---|
-| 🐛 **300+ defects found** | many of them buried in RabbitMQ/Celery queues and background jobs, not visible from the UI |
-| ⚡ **~1 day → <40 min** | rebuilt how test data gets set up for stress testing, wiring internal APIs straight into a third-party ERP |
-| 🤖 **~90% less manual analysis** | on an AI/LLM testing framework covering prediction, recommendation, OCR-extraction, rule-engine & LLM workflows |
-| 🔄 **~2 days → <1 min** | an ETL pipeline I built from scratch (Spring Boot + RabbitMQ) to replace a manual analysis workflow |
-| 📊 **Anomaly detection + Slack alerts** | plus a self-serve API and auto-emailed CSV reports so Customer Success didn't have to ask me for numbers |
-| 📈 **~2,000 data points/customer/day** | funnel & cohort analysis across a multi-stage ML pipeline, pinned down to the exact stage that broke |
+| 🐛 **300+ defects found** | including failures traced through RabbitMQ/Celery distributed, async systems |
+| ⚡ **~1 day → <40 min** | stress-test data setup, integrating internal APIs with a third-party ERP |
+| 🤖 **~90% effort reduction** | AI/LLM testing framework validating prediction, recommendation, OCR-extraction, rule-engine & LLM workflows |
+| 🔄 **2 days → <1 min** | ETL pipeline built from scratch (Spring Boot + RabbitMQ), earlier Data Analyst role |
+| 📊 **Anomaly detection + Slack alerting** | shipped for customer health monitoring |
 
 ---
 
@@ -41,7 +38,7 @@ Lately that curiosity has pointed at AI features — validating what an LLM/OCR 
 
 - **Test automation** — Playwright (UI + API modules), Postman/Swagger-driven API testing
 - **Distributed systems testing** — async workflows through RabbitMQ/Celery, race conditions, eventual-consistency bugs
-- **AI/LLM & OCR validation** — prompt evaluation, grading output against independently computed expected results instead of string-matching
+- **AI/LLM & OCR validation** — prompt evaluation, output grading against independently computed expected results, not string-matching
 - **Data-informed QA** — SQL-first debugging, tracing failures to the exact stage of a multi-tier pipeline
 
 ---
@@ -85,24 +82,14 @@ Lately that curiosity has pointed at AI features — validating what an LLM/OCR 
 
 ## 🤖 AI-Augmented QA
 
-QA doesn't stop at the application anymore — it extends to the models running inside it. I use AI both as something I test and as something I test *with*: prompt engineering & evaluation, OCR/LLM model validation, synthetic test data generation, agentic workflows — day to day with OpenAI, Gemini, Claude, Cursor, and GitHub Copilot.
+QA doesn't stop at the application anymore — it extends to the models inside it. I use AI both as a testing *target* and as a testing *tool*:
 
 | Capability | What it looks like in practice |
 |---|---|
-| **LLM/OCR output validation** | Compute the correct answer independently first, then grade the model's output against it — not exact-string-match |
-| **Prompt-driven test case generation** | Feed an LLM (Claude Code) the PRD, my own notes, and team context; it drafts test cases from the actual codebase, asks when something's ambiguous, I review every one before trusting it |
-| **Multi-tier pipeline debugging** | Trace a wrong prediction back to the exact stage — extraction, rule engine, or model — that actually caused it |
-| **AI-assisted engineering** | Claude Code / GitHub Copilot are part of my daily workflow, not a replacement for reviewing my own output |
-
----
-
-## 💼 Experience
-
-**QA Engineer** · Nov 2025 – Jul 2026
-Own QA end to end for a B2B FinTech SaaS product — UI, APIs, backend services, ML workflows, and the distributed/async systems underneath. Built the ERP stress-test data framework and the AI/LLM testing framework featured below, extended regression automation into Playwright API tests, and carry release quality — QA sign-off, defect lifecycle, regression coordination — through every ship.
-
-**Founding Data Analyst** *(Product AI Analytics & Quality Engineering)* · Jun 2024 – Oct 2025
-Started as the first data analyst on a product-analytics-meets-QA function, and ended up doing both. Built an ETL pipeline from scratch, an anomaly-detection + Slack-alerting system for customer health, and ran the A/B testing that compared in-house models against rule engines and third-party OCR — while already testing and validating releases before that became my official title.
+| **LLM/OCR output validation** | Independently compute the correct answer, grade predictions against it — not exact-string-match |
+| **Prompt-driven test case generation** | Turn PRDs + team context into structured, codebase-aware test cases with an LLM (Claude Code), reviewed by hand before trusting any output |
+| **Multi-tier pipeline debugging** | Trace a wrong prediction back to the exact stage — extraction, rule engine, or model — that caused it |
+| **AI-assisted engineering** | Use Claude Code / GitHub Copilot day-to-day to move faster without skipping review |
 
 ---
 
@@ -118,20 +105,20 @@ POM-structured UI automation and an API testing module, both exercising the same
 
 `Playwright` `TypeScript` `POM` `API Testing`
 
-### 🐍 Python API Automation (pytest + requests)
-Standalone backend/API test suite against a public REST API — Python-specific coverage independent of the TypeScript framework.
 
-`Python` `pytest` `requests` — *in progress*
 
 ---
 
-## 🏢 Production Contributions
+## 📊 GitHub Stats
 
-The projects above are personal, IP-clean rebuilds for this portfolio — the real versions live inside my company's proprietary codebase, so no repo link here, just what shipped:
+<div align="center">
 
-- **Playwright automation framework** — expanded regression coverage by adding an API testing module alongside the existing UI test suite, across the production application stack
-- **ERP stress-test data framework** — internal APIs wired into a third-party ERP, cut test-data prep from ~1 day to under 40 minutes
-- **AI/LLM testing framework** — generates test data/cases across Product-defined prompt combinations, validates outputs across prediction, recommendation, OCR-extraction, rule-engine & LLM workflows, ~90% less manual analysis effort
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=srinidhiacodes&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=srinidhiacodes&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=srinidhiacodes&theme=tokyonight&hide_border=true)
+
+</div>
 
 ---
 
